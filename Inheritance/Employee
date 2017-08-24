@@ -1,0 +1,13 @@
+Option Explicit
+Private m_name As String
+Private m_age As Integer
+
+Public Property Get name() As String
+    name = m_name
+End Property
+
+Public Sub InitiateProperties(name As String, age As Integer)
+    m_name = name
+    m_age = age
+End Sub
+
